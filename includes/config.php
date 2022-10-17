@@ -1,9 +1,9 @@
 <?php 
 // DB credentials.
-define('DB_HOST','localhost');
+define('DB_HOST','20.212.18.101');
 define('DB_USER','root');
-define('DB_PASS','');
-define('DB_NAME','carrental');
+define('DB_PASS','mypassword');
+define('DB_NAME','car_db');
 // Establish database connection.
 try
 {
