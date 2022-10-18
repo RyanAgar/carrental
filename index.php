@@ -54,7 +54,7 @@ error_reporting(0);
         <div class="col-md-5 col-md-push-7">
           <div class="banner_content">
             <h1>Find the right car for you.</h1>
-            <p>We have more than a thousand cars for you to choose. </p>
+            <p>Check out our collection of exotic cars!</p>
             <a href="#" class="btn">Read More <span class="angle_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> </div>
         </div>
       </div>
@@ -68,15 +68,15 @@ error_reporting(0);
 <section class="section-padding gray-bg">
   <div class="container">
     <div class="section-header text-center">
-      <h2>Find the Best <span>CarForYou</span></h2>
-      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+      <h2>Find the Best <span>Car For You</span></h2>
+      <p>Check out our extensive inventory of exotic high performance cars and pick the one that best suits your fantasies and dreams!</p>
     </div>
     <div class="row"> 
       
       <!-- Nav tabs -->
       <div class="recent-tab">
         <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation" class="active"><a href="#resentnewcar" role="tab" data-toggle="tab">New Car</a></li>
+          <li role="presentation" class="active"><a href="#resentnewcar" role="tab" data-toggle="tab">Available Cars</a></li>
         </ul>
       </div>
       <!-- Recently Listed New Cars -->
