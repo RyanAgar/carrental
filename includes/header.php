@@ -11,11 +11,11 @@
             <div class="header_widgets">
               <div class="circle_icon"> <i class="fa fa-envelope" aria-hidden="true"></i> </div>
               <p class="uppercase_text">For Support Mail us : </p>
-              <a href="mailto:info@example.com">codeprojectsorg@gmail.com</a> </div>
+              <a href="mailto:info@example.com">ryan.ng@ncs.com.sg</a> </div>
             <div class="header_widgets">
               <div class="circle_icon"> <i class="fa fa-phone" aria-hidden="true"></i> </div>
               <p class="uppercase_text">Service Helpline Call Us: </p>
-              <a href="tel:61-1234-5678-09">+91-9876543210</a> </div>
+              <a href="tel:61-1234-5678-09">+65-92259351</a> </div>
             <div class="social-follow">
               <ul>
                 <li><a href="https://code-projects.org/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
