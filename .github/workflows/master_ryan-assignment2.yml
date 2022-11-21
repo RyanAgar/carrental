@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'ryan-assignment2'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_92E62FEC244D4EF9AE09F18262345913 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5F4A23E552354E25AEC3ACB6237855F3 }}
           package: .
