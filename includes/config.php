@@ -7,7 +7,7 @@ define('DB_NAME','carrental');
 // Establish database connection.
 try
 {
-$dbh = new PDO("mysql:host=".DB_HOST.";dbname=".DB_NAME,DB_USER, DB_PASS,array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'"));
+$dbh = new PDO("mysql:host=".DB_HOST.";dbname=".DB_NAME,DB_USER, DB_PASS,array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'",PDO::MYSQL_ATTR_SSL_CA => 'DigiCertGlobalRootCA.crt.pem',PDO::MYSQL_ATTR_SSL_VERIFY_SERVER_CERT => false,));
 }
 catch (PDOException $e)
 {
