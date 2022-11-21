@@ -1,11 +1,16 @@
 <?php 
+// DB credentials.
+define('DB_HOST','ryan-assignment2.mysql.database.azure.com');
+define('DB_USER','ryan');
+define('DB_PASS','tG046250@');
+define('DB_NAME','carrental');
+// Establish database connection.
 try
 {
-    $con = mysqli_init(); mysqli_ssl_set($con,NULL,NULL, "/DigiCertGlobalRootCA.crt.pem", NULL, NULL); mysqli_real_connect($conn, "ryan-assignment2.mysql.database.azure.com", "ryan", "tG046250@", "carrental", 3306, MYSQLI_CLIENT_SSL);
+$dbh = new PDO("mysql:host=".DB_HOST.";dbname=".DB_NAME,DB_USER, DB_PASS,array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'"));
 }
 catch (PDOException $e)
 {
 exit("Error: " . $e->getMessage());
 }
-
 ?>
