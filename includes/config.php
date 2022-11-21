@@ -1,9 +1,9 @@
 <?php 
 // DB credentials.
-define('DB_HOST','ryan-assignment2.database.windows.net');
+define('DB_HOST','ryan-assignment2.mysql.database.azure.com');
 define('DB_USER','ryan');
 define('DB_PASS','tG046250@');
-define('DB_NAME','car_db');
+define('DB_NAME','carrental');
 // Establish database connection.
 try
 {
