@@ -1,8 +1,8 @@
 <?php 
 // DB credentials.
-define('DB_HOST','20.212.18.101');
-define('DB_USER','root');
-define('DB_PASS','mypassword');
+define('DB_HOST','ryan-assignment2.database.windows.net');
+define('DB_USER','ryan');
+define('DB_PASS','tG046250@');
 define('DB_NAME','car_db');
 // Establish database connection.
 try
